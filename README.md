@@ -1,1 +1,2131 @@
-# y
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-37VL50NBZ3"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-37VL50NBZ3');
+</script>
+    <meta name="google-site-verification" content="bc0Dj_23QJ6EIRZNU2aUmAqugJlhweo80nh1oumMoVY" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gaurab Sapkota | Nepal Himalayan Journeys - Expert Travel Guide</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        /* Reset and Base Styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        :root {
+            --primary-color: #0a4d3c;
+            --secondary-color: #d4af37;
+            --accent-color: #2a7c6f;
+            --light-color: #f8f5f0;
+            --dark-color: #1a1a1a;
+            --text-color: #333333;
+            --text-light: #666666;
+            --shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            --transition: all 0.3s ease;
+            --border-radius: 12px;
+            --section-padding: 100px 0;
+        }
+        
+        html {
+            scroll-behavior: smooth;
+        }
+        
+        body {
+            font-family: 'Poppins', sans-serif;
+            line-height: 1.7;
+            color: var(--text-color);
+            background-color: var(--light-color);
+            overflow-x: hidden;
+        }
+        
+        h1, h2, h3, h4, h5 {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 700;
+            color: var(--dark-color);
+            line-height: 1.3;
+        }
+        
+        a {
+            text-decoration: none;
+            color: inherit;
+            transition: var(--transition);
+        }
+        
+        ul {
+            list-style: none;
+        }
+        
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+        }
+        
+        .container {
+            width: 100%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        
+        .section-title {
+            text-align: center;
+            margin-bottom: 60px;
+            position: relative;
+        }
+        
+        .section-title h2 {
+            font-size: 2.8rem;
+            color: var(--primary-color);
+            display: inline-block;
+            position: relative;
+            padding-bottom: 15px;
+        }
+        
+        .section-title h2:after {
+            content: '';
+            position: absolute;
+            width: 80px;
+            height: 4px;
+            background-color: var(--secondary-color);
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            border-radius: 2px;
+        }
+        
+        .section-title p {
+            font-size: 1.1rem;
+            color: var(--text-light);
+            max-width: 700px;
+            margin: 20px auto 0;
+        }
+        
+        section {
+            padding: var(--section-padding);
+        }
+        
+        /* Button Styles */
+        .btn {
+            display: inline-block;
+            padding: 16px 36px;
+            background-color: var(--primary-color);
+            color: white;
+            border-radius: 50px;
+            font-weight: 600;
+            font-size: 1rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            border: 2px solid var(--primary-color);
+            cursor: pointer;
+            transition: var(--transition);
+            text-align: center;
+        }
+        
+        .btn:hover {
+            background-color: transparent;
+            color: var(--primary-color);
+            transform: translateY(-5px);
+            box-shadow: var(--shadow);
+        }
+        
+        .btn-secondary {
+            background-color: var(--secondary-color);
+            border-color: var(--secondary-color);
+            color: var(--dark-color);
+        }
+        
+        .btn-secondary:hover {
+            background-color: transparent;
+            color: var(--secondary-color);
+        }
+        
+        /* Header Styles */
+        header {
+            background: linear-gradient(rgba(10, 77, 60, 0.85), rgba(10, 77, 60, 0.9)), url('https://images.unsplash.com/photo-1544551763-46a013bb70d5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            color: white;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            text-align: center;
+            padding-top: 100px;
+            position: relative;
+        }
+        
+        .hero-content {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 0 20px;
+            animation: fadeUp 1s ease-out;
+        }
+        
+        .profile-img-container {
+            width: 220px;
+            height: 220px;
+            margin: 0 auto 30px;
+            border-radius: 50%;
+            overflow: hidden;
+            border: 5px solid rgba(255, 255, 255, 0.2);
+            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+        }
+        
+        .profile-img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: var(--transition);
+        }
+        
+        .profile-img:hover {
+            transform: scale(1.05);
+        }
+        
+        .hero-content h1 {
+            font-size: 3.8rem;
+            color: white;
+            margin-bottom: 15px;
+            text-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+        }
+        
+        .hero-content h2 {
+            font-size: 2rem;
+            color: var(--secondary-color);
+            margin-bottom: 25px;
+            font-weight: 500;
+        }
+        
+        .tagline {
+            font-size: 1.3rem;
+            margin-bottom: 40px;
+            color: rgba(255, 255, 255, 0.9);
+            max-width: 700px;
+            margin-left: auto;
+            margin-right: auto;
+            line-height: 1.8;
+        }
+        
+        .cta-buttons {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        
+        /* Navigation */
+        nav {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background-color: rgba(255, 255, 255, 0.98);
+            z-index: 1000;
+            padding: 20px 0;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+            transition: var(--transition);
+        }
+        
+        .nav-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .logo {
+            font-size: 1.8rem;
+            font-weight: 700;
+            color: var(--primary-color);
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        
+        .logo i {
+            color: var(--secondary-color);
+        }
+        
+        .nav-links {
+            display: flex;
+            list-style: none;
+        }
+        
+        .nav-links li {
+            margin-left: 40px;
+        }
+        
+        .nav-links a {
+            color: var(--dark-color);
+            font-weight: 600;
+            font-size: 1rem;
+            position: relative;
+            padding: 5px 0;
+        }
+        
+        .nav-links a:after {
+            content: '';
+            position: absolute;
+            width: 0;
+            height: 2px;
+            background-color: var(--secondary-color);
+            bottom: 0;
+            left: 0;
+            transition: var(--transition);
+        }
+        
+        .nav-links a:hover:after,
+        .nav-links a.active:after {
+            width: 100%;
+        }
+        
+        .nav-links a:hover,
+        .nav-links a.active {
+            color: var(--primary-color);
+        }
+        
+        .mobile-menu-btn {
+            display: none;
+            background: none;
+            border: none;
+            color: var(--primary-color);
+            font-size: 1.5rem;
+            cursor: pointer;
+        }
+        
+        /* About Section */
+        .about {
+            background-color: white;
+        }
+        
+        .about-content {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 60px;
+            align-items: center;
+        }
+        
+        .about-text h3 {
+            font-size: 2.2rem;
+            margin-bottom: 25px;
+            color: var(--primary-color);
+        }
+        
+        .about-text p {
+            margin-bottom: 20px;
+            color: var(--text-light);
+            font-size: 1.05rem;
+        }
+        
+        .stats-container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            margin-top: 30px;
+        }
+        
+        .stat-item {
+            text-align: center;
+            padding: 20px;
+            background-color: rgba(10, 77, 60, 0.05);
+            border-radius: var(--border-radius);
+        }
+        
+        .stat-number {
+            font-size: 2.5rem;
+            font-weight: 700;
+            color: var(--primary-color);
+            line-height: 1;
+        }
+        
+        .stat-label {
+            font-size: 0.9rem;
+            color: var(--text-light);
+            margin-top: 8px;
+        }
+        
+        /* Certifications */
+        .certifications {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            margin-top: 30px;
+        }
+        
+        .cert-badge {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            background-color: rgba(10, 77, 60, 0.08);
+            padding: 12px 20px;
+            border-radius: 50px;
+            font-size: 0.9rem;
+            font-weight: 500;
+        }
+        
+        .cert-badge i {
+            color: var(--secondary-color);
+        }
+        
+        /* Destinations Section - Detailed Cards */
+        .destinations {
+            background-color: #f9f7f2;
+        }
+        
+        .filter-container {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin-bottom: 40px;
+            flex-wrap: wrap;
+        }
+        
+        .filter-btn {
+            padding: 10px 25px;
+            background-color: white;
+            border: 2px solid var(--primary-color);
+            border-radius: 50px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: var(--transition);
+            color: var(--primary-color);
+        }
+        
+        .filter-btn.active,
+        .filter-btn:hover {
+            background-color: var(--primary-color);
+            color: white;
+        }
+        
+        .destinations-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+            gap: 40px;
+        }
+        
+        .destination-card {
+            background-color: white;
+            border-radius: var(--border-radius);
+            overflow: hidden;
+            box-shadow: var(--shadow);
+            transition: var(--transition);
+            position: relative;
+        }
+        
+        .destination-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+        }
+        
+        .destination-header {
+            padding: 25px 25px 15px;
+            border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+        }
+        
+        .destination-header h3 {
+            font-size: 1.5rem;
+            margin-bottom: 10px;
+            color: var(--primary-color);
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        
+        .destination-header h3 i {
+            color: var(--secondary-color);
+        }
+        
+        .destination-type {
+            display: inline-block;
+            padding: 5px 15px;
+            background-color: var(--primary-color);
+            color: white;
+            border-radius: 30px;
+            font-size: 0.8rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-top: 5px;
+        }
+        
+        .trekking {
+            background-color: var(--primary-color);
+        }
+        
+        .city-tour {
+            background-color: var(--accent-color);
+        }
+        
+        .destination-content {
+            padding: 20px 25px;
+        }
+        
+        .destination-description {
+            color: var(--text-light);
+            font-size: 0.95rem;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+        
+        .destination-details {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 15px;
+            margin-bottom: 25px;
+        }
+        
+        .detail-item {
+            display: flex;
+            flex-direction: column;
+            background-color: rgba(10, 77, 60, 0.03);
+            padding: 12px;
+            border-radius: 8px;
+        }
+        
+        .detail-label {
+            font-size: 0.8rem;
+            color: var(--text-light);
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-bottom: 5px;
+        }
+        
+        .detail-value {
+            font-size: 1rem;
+            font-weight: 600;
+            color: var(--primary-color);
+        }
+        
+        .destination-footer {
+            padding: 20px 25px;
+            background-color: rgba(10, 77, 60, 0.03);
+            border-top: 1px solid rgba(0, 0, 0, 0.05);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .price-container {
+            text-align: right;
+        }
+        
+        .price-from {
+            font-size: 0.9rem;
+            color: var(--text-light);
+            margin-bottom: 5px;
+        }
+        
+        .price-amount {
+            font-size: 1.8rem;
+            font-weight: 700;
+            color: var(--primary-color);
+        }
+        
+        .price-note {
+            font-size: 0.8rem;
+            color: var(--text-light);
+            font-style: italic;
+        }
+        
+        /* Best Time to Visit */
+        .best-time {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            margin-top: 10px;
+            font-size: 0.9rem;
+        }
+        
+        .best-time i {
+            color: var(--secondary-color);
+        }
+        
+        /* Difficulty Rating */
+        .difficulty {
+            display: inline-block;
+            padding: 4px 10px;
+            border-radius: 20px;
+            font-size: 0.8rem;
+            font-weight: 600;
+            margin-top: 10px;
+        }
+        
+        .difficulty.easy {
+            background-color: #e8f5e9;
+            color: #2e7d32;
+        }
+        
+        .difficulty.moderate {
+            background-color: #fff3e0;
+            color: #f57c00;
+        }
+        
+        .difficulty.challenging {
+            background-color: #ffebee;
+            color: #c62828;
+        }
+        
+        .difficulty.difficult {
+            background-color: #f3e5f5;
+            color: #7b1fa2;
+        }
+        
+        /* Testimonials */
+        .testimonials {
+            background-color: white;
+        }
+        
+        .testimonial-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+            gap: 30px;
+            margin-top: 50px;
+        }
+        
+        .testimonial-card {
+            background-color: #f9f7f2;
+            padding: 30px;
+            border-radius: var(--border-radius);
+            box-shadow: var(--shadow);
+            position: relative;
+        }
+        
+        .testimonial-card:before {
+            content: '"';
+            position: absolute;
+            top: 10px;
+            left: 20px;
+            font-size: 4rem;
+            color: rgba(10, 77, 60, 0.1);
+            font-family: serif;
+        }
+        
+        .testimonial-text {
+            font-style: italic;
+            color: var(--text-light);
+            margin-bottom: 20px;
+            line-height: 1.7;
+        }
+        
+        .testimonial-author {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+        
+        .author-img {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+        
+        .author-info h4 {
+            font-size: 1rem;
+            margin-bottom: 5px;
+        }
+        
+        .author-info p {
+            font-size: 0.85rem;
+            color: var(--text-light);
+        }
+        
+        /* Contact Section */
+        .contact {
+            background-color: white;
+        }
+        
+        .contact-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 60px;
+        }
+        
+        .contact-info h3 {
+            font-size: 2rem;
+            margin-bottom: 25px;
+            color: var(--primary-color);
+        }
+        
+        .contact-info p {
+            color: var(--text-light);
+            margin-bottom: 40px;
+            font-size: 1.05rem;
+        }
+        
+        .contact-details {
+            margin-bottom: 40px;
+        }
+        
+        .contact-item {
+            display: flex;
+            align-items: flex-start;
+            margin-bottom: 25px;
+        }
+        
+        .contact-icon {
+            width: 50px;
+            height: 50px;
+            background-color: rgba(10, 77, 60, 0.1);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-right: 20px;
+            flex-shrink: 0;
+            color: var(--primary-color);
+            font-size: 1.2rem;
+        }
+        
+        .contact-text h4 {
+            font-size: 1.1rem;
+            margin-bottom: 5px;
+            color: var(--dark-color);
+        }
+        
+        .contact-text a, .contact-text p {
+            color: var(--text-light);
+            font-size: 1rem;
+        }
+        
+        .contact-text a:hover {
+            color: var(--primary-color);
+        }
+        
+        .social-links {
+            display: flex;
+            gap: 15px;
+        }
+        
+        .social-links a {
+            width: 50px;
+            height: 50px;
+            background-color: rgba(10, 77, 60, 0.08);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.2rem;
+            color: var(--primary-color);
+            transition: var(--transition);
+        }
+        
+        .social-links a:hover {
+            background-color: var(--primary-color);
+            color: white;
+            transform: translateY(-5px);
+        }
+        
+        /* Contact Form */
+        .contact-form .form-group {
+            margin-bottom: 25px;
+        }
+        
+        .contact-form label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: 600;
+            color: var(--dark-color);
+        }
+        
+        .contact-form input,
+        .contact-form textarea,
+        .contact-form select {
+            width: 100%;
+            padding: 16px 20px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            font-family: 'Poppins', sans-serif;
+            font-size: 1rem;
+            transition: var(--transition);
+            background-color: #f9f9f9;
+        }
+        
+        .contact-form input:focus,
+        .contact-form textarea:focus,
+        .contact-form select:focus {
+            outline: none;
+            border-color: var(--primary-color);
+            background-color: white;
+            box-shadow: 0 0 0 3px rgba(10, 77, 60, 0.1);
+        }
+        
+        .contact-form textarea {
+            min-height: 180px;
+            resize: vertical;
+        }
+        
+        .form-status {
+            padding: 15px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            display: none;
+        }
+        
+        .form-status.success {
+            background-color: #d4edda;
+            color: #155724;
+            display: block;
+        }
+        
+        .form-status.error {
+            background-color: #f8d7da;
+            color: #721c24;
+            display: block;
+        }
+        
+        /* Footer */
+        footer {
+            background-color: var(--primary-color);
+            color: white;
+            padding: 70px 0 30px;
+        }
+        
+        .footer-content {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 50px;
+            margin-bottom: 50px;
+        }
+        
+        .footer-col h3 {
+            font-size: 1.5rem;
+            margin-bottom: 25px;
+            color: white;
+            position: relative;
+            padding-bottom: 10px;
+        }
+        
+        .footer-col h3:after {
+            content: '';
+            position: absolute;
+            width: 50px;
+            height: 3px;
+            background-color: var(--secondary-color);
+            bottom: 0;
+            left: 0;
+        }
+        
+        .footer-col p {
+            color: rgba(255, 255, 255, 0.8);
+            margin-bottom: 20px;
+            line-height: 1.7;
+        }
+        
+        .footer-links li {
+            margin-bottom: 12px;
+        }
+        
+        .footer-links a {
+            color: rgba(255, 255, 255, 0.8);
+            transition: var(--transition);
+        }
+        
+        .footer-links a:hover {
+            color: var(--secondary-color);
+            padding-left: 5px;
+        }
+        
+        .footer-social {
+            display: flex;
+            gap: 15px;
+            margin-top: 20px;
+        }
+        
+        .footer-social a {
+            width: 45px;
+            height: 45px;
+            background-color: rgba(255, 255, 255, 0.1);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.1rem;
+            color: white;
+            transition: var(--transition);
+        }
+        
+        .footer-social a:hover {
+            background-color: var(--secondary-color);
+            color: var(--dark-color);
+            transform: translateY(-5px);
+        }
+        
+        .copyright {
+            text-align: center;
+            padding-top: 30px;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            color: rgba(255, 255, 255, 0.7);
+            font-size: 0.95rem;
+        }
+        
+        /* WhatsApp Float Button */
+        .whatsapp-float {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            background-color: #25D366;
+            color: white;
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 30px;
+            box-shadow: 0 5px 15px rgba(37, 211, 102, 0.3);
+            z-index: 100;
+            transition: var(--transition);
+        }
+        
+        .whatsapp-float:hover {
+            transform: scale(1.1);
+            box-shadow: 0 8px 20px rgba(37, 211, 102, 0.4);
+            color: white;
+        }
+        
+        /* Animations */
+        @keyframes fadeUp {
+            from {
+                opacity: 0;
+                transform: translateY(50px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        
+        .fade-in {
+            opacity: 0;
+            transform: translateY(40px);
+            transition: opacity 0.8s ease, transform 0.8s ease;
+        }
+        
+        .fade-in.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+        
+        /* Responsive Styles */
+        @media (max-width: 992px) {
+            .about-content,
+            .contact-container {
+                grid-template-columns: 1fr;
+            }
+            
+            .section-title h2 {
+                font-size: 2.4rem;
+            }
+            
+            .hero-content h1 {
+                font-size: 3.2rem;
+            }
+            
+            .hero-content h2 {
+                font-size: 1.8rem;
+            }
+            
+            .stats-container {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+        
+        @media (max-width: 768px) {
+            .nav-links {
+                position: fixed;
+                top: 80px;
+                left: 0;
+                width: 100%;
+                background-color: white;
+                flex-direction: column;
+                align-items: center;
+                padding: 30px 0;
+                transform: translateY(-100%);
+                opacity: 0;
+                transition: var(--transition);
+                box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+                z-index: 999;
+            }
+            
+            .nav-links.active {
+                transform: translateY(0);
+                opacity: 1;
+            }
+            
+            .nav-links li {
+                margin: 15px 0;
+            }
+            
+            .mobile-menu-btn {
+                display: block;
+            }
+            
+            .destinations-container,
+            .testimonial-container {
+                grid-template-columns: 1fr;
+            }
+            
+            .hero-content h1 {
+                font-size: 2.6rem;
+            }
+            
+            .hero-content h2 {
+                font-size: 1.5rem;
+            }
+            
+            .profile-img-container {
+                width: 180px;
+                height: 180px;
+            }
+            
+            .section-title h2 {
+                font-size: 2rem;
+            }
+            
+            .cta-buttons {
+                flex-direction: column;
+                align-items: center;
+            }
+            
+            .btn {
+                width: 100%;
+                max-width: 300px;
+            }
+            
+            .stats-container {
+                grid-template-columns: 1fr;
+            }
+            
+            .destination-details {
+                grid-template-columns: 1fr;
+            }
+            
+            .destination-footer {
+                flex-direction: column;
+                gap: 15px;
+                text-align: center;
+            }
+            
+            .price-container {
+                text-align: center;
+            }
+        }
+        
+        @media (max-width: 576px) {
+            section {
+                padding: 70px 0;
+            }
+            
+            .hero-content h1 {
+                font-size: 2.2rem;
+            }
+            
+            .hero-content h2 {
+                font-size: 1.3rem;
+            }
+            
+            .tagline {
+                font-size: 1.1rem;
+            }
+            
+            .section-title h2 {
+                font-size: 1.8rem;
+            }
+            
+            .whatsapp-float {
+                width: 50px;
+                height: 50px;
+                font-size: 25px;
+                bottom: 20px;
+                right: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <div class="container nav-container">
+            <a href="#" class="logo">
+                <i class="fas fa-mountain"></i>
+                <span>Nepal Himalayan Journeys</span>
+            </a>
+            <button class="mobile-menu-btn" id="mobileMenuBtn">
+                <i class="fas fa-bars"></i>
+            </button>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#destinations">Destinations</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Header / Hero Section -->
+    <header id="home">
+        <div class="container">
+            <div class="hero-content">
+                <div class="profile-img-container">
+                    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjQLorU6aRQlXklFQXNmvXfjmIPnn762x_NNvtdECRwbUC6mItJMOVnCMfFIbSg6D7gpGtVY1wQ4XtnjYE24xXEh7VUfM1Ext35WWx8D-dFc1fWgbfb_-G_aTJwiQAZxsB9H5e4YjH6fuzSOwoBGNcsaGvAmhBkRaL6q1lDkCDaExgFo7BTmMXaAe3u4A/s1080/604340530_17937443538128190_4051597627292607446_n.jpg" 
+                         alt="Gaurab Sapkota - Nepal Travel Guide" 
+                         class="profile-img">
+                </div>
+                <h1>Gaurab Sapkota</h1>
+                <h2>Professional Travel Guide & Nepal Himalayan Expert</h2>
+                <p class="tagline">"Helping travelers explore the majestic Himalayas of Nepal 🇳🇵 | 1000+ happy clients | Certified Guide | Customized trekking experiences | All-inclusive packages"</p>
+                <div class="cta-buttons">
+                    <a href="#contact" class="btn">Book Your Adventure</a>
+                    <a href="#destinations" class="btn btn-secondary">View Package Rates</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-title fade-in">
+                <h2>About Me</h2>
+                <p>With over 8 years of experience guiding travelers through Nepal's majestic landscapes, I provide unforgettable Himalayan adventures.</p>
+            </div>
+            <div class="about-content">
+                <div class="about-text fade-in">
+                    <h3>Your Expert Guide to Nepal's Himalayas</h3>
+                    <p>Hello! I'm <strong>Gaurab Sapkota</strong>, founder of Nepal Himalayan Journeys. Born and raised in the foothills of the Himalayas, I have an intimate knowledge of Nepal's diverse landscapes, cultures, and trekking routes.</p>
+                    <p>My passion for adventure and deep respect for Nepal's natural beauty led me to become a professional travel guide. I'm certified by the Nepal Government Ministry of Tourism and have successfully guided over 1000 groups through challenging and rewarding treks.</p>
+                    <p>I specialize in creating <strong>personalized itineraries</strong> that match your fitness level, interests, and budget. Whether you're seeking a challenging high-altitude trek or a cultural exploration of ancient cities, I ensure a safe, authentic, and unforgettable experience.</p>
+                    
+                    <div class="certifications">
+                        <div class="cert-badge">
+                            <i class="fas fa-certificate"></i>
+                            <span>Government Certified Guide</span>
+                        </div>
+                        <div class="cert-badge">
+                            <i class="fas fa-language"></i>
+                            <span>Fluent: English, Hindi, Nepali</span>
+                        </div>
+                        <div class="cert-badge">
+                            <i class="fas fa-award"></i>
+                            <span>First Aid & Wilderness Certified</span>
+                        </div>
+                    </div>
+                    
+                    <div class="stats-container">
+                        <div class="stat-item">
+                            <div class="stat-number">3+</div>
+                            <div class="stat-label">Years Experience</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">1000+</div>
+                            <div class="stat-label">Happy Clients</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">25+</div>
+                            <div class="stat-label">Destinations</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-text fade-in">
+                    <h3>Why Choose My Services?</h3>
+                    <p><strong>All-Inclusive Packages:</strong> No hidden costs - includes permits, accommodation, meals, transportation, and guide services.</p>
+                    <p><strong>Safety First:</strong> Wilderness first aid certified, satellite communication, and emergency evacuation plans.</p>
+                    <p><strong>Cultural Insight:</strong> Deep connections with local communities for authentic experiences.</p>
+                    <p><strong>Flexible Itineraries:</strong> Customized based on your fitness, interests, and timeframe.</p>
+                    
+                    <h3 style="margin-top: 30px;">Package Inclusions</h3>
+                    <ul style="color: var(--text-light); margin-top: 15px; padding-left: 20px;">
+                        <li style="margin-bottom: 10px;">✔ Professional licensed guide</li>
+                        <li style="margin-bottom: 10px;">✔ All necessary permits and fees</li>
+                        <li style="margin-bottom: 10px;">✔ Accommodation (teahouse/lodge/hotel)</li>
+                        <li style="margin-bottom: 10px;">✔ All meals during trekking</li>
+                        <li style="margin-bottom: 10px;">✔ Airport transfers and ground transportation</li>
+                        <li style="margin-bottom: 10px;">✔ Porter service (1 porter per 2 clients)</li>
+                        <li style="margin-bottom: 10px;">✔ First aid kit and emergency oxygen</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Destinations Section -->
+    <section id="destinations" class="destinations">
+        <div class="container">
+            <div class="section-title fade-in">
+                <h2>Popular Destinations & Packages</h2>
+                <p>Detailed information on all popular trekking routes and cultural tours with complete pricing</p>
+            </div>
+            
+            <div class="filter-container fade-in">
+                <button class="filter-btn active" data-filter="all">All Destinations</button>
+                <button class="filter-btn" data-filter="trekking">Trekking Routes</button>
+                <button class="filter-btn" data-filter="tour">City & Cultural Tours</button>
+                <button class="filter-btn" data-filter="peak">Peak Climbing</button>
+            </div>
+            
+            <div class="destinations-container">
+                <!-- Everest Base Camp -->
+                <div class="destination-card fade-in" data-category="trekking">
+                    <div class="destination-header">
+                        <h3><i class="fas fa-mountain"></i> Everest Base Camp Trek</h3>
+                        <span class="destination-type trekking">Trekking</span>
+                        <div class="difficulty challenging">Challenging</div>
+                    </div>
+                    
+                    <div class="destination-content">
+                        <p class="destination-description">The ultimate trekking adventure to the base of the world's highest mountain (8,848m). Experience Sherpa culture, visit Tengboche Monastery, and witness breathtaking Himalayan vistas.</p>
+                        
+                        <div class="destination-details">
+                            <div class="detail-item">
+                                <span class="detail-label">Duration</span>
+                                <span class="detail-value">14 Days</span>
+                            </div>
+                            <div class="detail-item">
+                                <span class="detail-label">Max Altitude</span>
+                                <span class="detail-value">5,545m (EBC)</span>
+                            </div>
+                            <div class="detail-item">
+                                <span class="detail-label">Temperature</span>
+                                <span class="detail-value">-10°C to 15°C</span>
+                            </div>
+                            <div class="detail-item">
+                                <span class="detail-label">Daily Walking</span>
+                                <span class="detail-value">5-7 hours</span>
+                            </div>
+                        </div>
+                        
+                        <div class="best-time">
+                            <i class="fas fa-calendar-alt"></i>
+                            <span>Best Time: March-May & Sept-Nov</span>
+                        </div>
+                    </div>
+                    
+                    <div class="destination-footer">
+                        <a href="#contact" class="btn">Inquire Now</a>
+                        <div class="price-container">
+                            <div class="price-from">Starting from</div>
+                            <div class="price-amount">$1,350</div>
+                            <div class="price-note">per person</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Annapurna Circuit -->
+                <div class="destination-card fade-in" data-category="trekking">
+                    <div class="destination-header">
+                        <h3><i class="fas fa-hiking"></i> Annapurna Circuit</h3>
+                        <span class="destination-type trekking">Trekking</span>
+                        <div class="difficulty challenging">Challenging</div>
+                    </div>
+                    
+                    <div class="destination-content">
+                        <p class="destination-description">One of the world's classic treks circling the Annapurna Massif. Cross the Thorong La Pass (5,416m), experience diverse landscapes from subtropical forests to high-altitude deserts.</p>
+                        
+                        <div class="destination-details">
+                            <div class="detail-item">
+                                <span class="detail-label">Duration</span>
+                                <span class="detail-value">18 Days</span>
+                            </div>
+                            <div class="detail-item">
+                                <span class="detail-label">Max Altitude</span>
+                                <span class="detail-value">5,416m</span>
+                            </div>
+                            <div class="detail-item">
+                                <span class="detail-label">Temperature</span>
+                                <span class="detail-value">-5°C to 20°C</span>
+                            </div>
+                            <div class="detail-item">
+                                <span class="detail-label">Daily Walking</span>
+                                <span class="detail-value">5-7 hours</span>
+                            </div>
+                        </div>
+                        
+                        <div class="best-time">
+                            <i class="fas fa-calendar-alt"></i>
+                            <span>Best Time: March-May & Sept-Nov</span>
+                        </div>
+                    </div>
+                    
+                    <div class="destination-footer">
+                        <a href="#contact" class="btn">Inquire Now</a>
+                        <div class="price-container">
+                            <div class="price-from">Starting from</div>
+                            <div class="price-amount">$1,250</div>
+                            <div class="price-note">per person</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Annapurna Base Camp -->
+                <div class="destination-card fade-in" data-category="trekking">
+                    <div class="destination-header">
+                        <h3><i class="fas fa-campground"></i> Annapurna Base Camp</h3>
+                        <span class="destination-type trekking">Trekking</span>
+                        <div class="difficulty moderate">Moderate</div>
+                    </div>
+                    
+                    <div class="destination-content">
+                        <p class="destination-description">A spectacular trek into the heart of the Annapurna Sanctuary surrounded by towering peaks. Experience Gurung culture and natural hot springs at Jhinu Danda.</p>
+                        
+                        <div class="destination-details">
+                            <div class="detail-item">
+                                <span class="detail-label">Duration</span>
+                                <span class="detail-value">10 Days</span>
+                            </div>
+                            <div class="detail-item">
+                                <span class="detail-label">Max Altitude</span>
+                                <span class="detail-value">4,130m</span>
+                            </div>
+                            <div class="detail-item">
+                                <span class="detail-label">Temperature</span>
+                                <span class="detail-value">0°C to 20°C</span>
+                            </div>
+                            <div class="detail-item">
+                                <span class="detail-label">Daily Walking</span>
+                                <span class="detail-value">5-6 hours</span>
+                            </div>
+                        </div>
+                        
+                        <div class="best-time">
+                            <i class="fas fa-calendar-alt"></i>
+                            <span>Best Time: Oct-Nov & March-April</span>
+                        </div>
+                    </div>
+                    
+                    <div class="destination-footer">
+                        <a href="#contact" class="btn">Inquire Now</a>
+                        <div class="price-container">
+                            <div class="price-from">Starting from</div>
+                            <div class="price-amount">$850</div>
+                            <div class="price-note">per person</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Langtang Valley -->
+                <div class="destination-card fade-in" data-category="trekking">
+                    <div class="destination-header">
+                        <h3><i class="fas fa-tree"></i> Langtang Valley Trek</h3>
+                        <span class="destination-type trekking">Trekking</span>
+                        <div class="difficulty moderate">Moderate</div>
+                    </div>
+                    
+                    <div class="destination-content">
+                        <p class="destination-description">Known as the "valley of glaciers," this trek offers stunning mountain scenery and Tamang culture. Close to Kathmandu, perfect for those with limited time.</p>
+                        
+                        <div class="destination-details">
+                            <div class="detail-item">
+                                <span class="detail-label">Duration</span>
+                                <span class="detail-value">9 Days</span>
+                            </div>
+                            <div class="detail-item">
+                                <span class="detail-label">Max Altitude</span>
+                                <span class="detail-value">4,984m</span>
+                            </div>
+                            <div class="detail-item">
+                                <span class="detail-label">Temperature</span>
+                                <span class="detail-value">-5°C to 18°C</span>
+                            </div>
+                            <div class="detail-item">
+                                <span class="detail-label">Daily Walking</span>
+                                <span class="detail-value">4-6 hours</span>
+                            </div>
+                        </div>
+                        
+                        <div class="best-time">
+                            <i class="fas fa-calendar-alt"></i>
+                            <span>Best Time: March-May & Sept-Nov</span>
+                        </div>
+                    </div>
+                    
+                    <div class="destination-footer">
+                        <a href="#contact" class="btn">Inquire Now</a>
+                        <div class="price-container">
+                            <div class="price-from">Starting from</div>
+                            <div class="price-amount">$750</div>
+                            <div class="price-note">per person</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Manaslu Circuit -->
+                <div class="destination-card fade-in" data-category="trekking">
+                    <div class="destination-header">
+                        <h3><i class="fas fa-map-signs"></i> Manaslu Circuit</h3>
+                        <span class="destination-type trekking">Trekking</span>
+                        <div class="difficulty difficult">Difficult</div>
+                    </div>
+                    
+                    <div class="destination-content">
+                        <p class="destination-description">A challenging and less crowded trek around the eighth highest mountain. Restricted area requiring special permits, offering pristine landscapes and rich cultural encounters.</p>
+                        
+                        <div class="destination-details">
+                            <div class="detail-item">
+                                <span class="detail-label">Duration</span>
+                                <span class="detail-value">16 Days</span>
+                            </div>
+                            <div class="detail-item">
+                                <span class="detail-label">Max Altitude</span>
+                                <span class="detail-value">5,106m</span>
+                            </div>
+                            <div class="detail-item">
+                                <span class="detail-label">Temperature</span>
+                                <span class="detail-value">-10°C to 15°C</span>
+                            </div>
+                            <div class="detail-item">
+                                <span class="detail-label">Daily Walking</span>
+                                <span class="detail-value">6-8 hours</span>
+                            </div>
+                        </div>
+                        
+                        <div class="best-time">
+                            <i class="fas fa-calendar-alt"></i>
+                            <span>Best Time: April-May & Oct-Nov</span>
+                        </div>
+                    </div>
+                    
+                    <div class="destination-footer">
+                        <a href="#contact" class="btn">Inquire Now</a>
+                        <div class="price-container">
+                            <div class="price-from">Starting from</div>
+                            <div class="price-amount">$1,450</div>
+                            <div class="price-note">per person</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Upper Mustang -->
+                <div class="destination-card fade-in" data-category="trekking">
+                    <div class="destination-header">
+                        <h3><i class="fas fa-fort-awesome"></i> Upper Mustang Trek</h3>
+                        <span class="destination-type trekking">Trekking</span>
+                        <div class="difficulty moderate">Moderate</div>
+                    </div>
+                    
+                    <div class="destination-content">
+                        <p class="destination-description">Explore the ancient Kingdom of Lo, a remote region with Tibetan-influenced culture, cave dwellings, and dramatic desert landscape. Special restricted area permit required.</p>
+                        
+                        <div class="destination-details">
+                            <div class="detail-item">
+                                <span class="detail-label">Duration</span>
+                                <span class="detail-value">14 Days</span>
+                            </div>
+                            <div class="detail-item">
+                                <span class="detail-label">Max Altitude</span>
+                                <span class="detail-value">3,840m</span>
+                            </div>
+                            <div class="detail-item">
+                                <span class="detail-label">Temperature</span>
+                                <span class="detail-value">0°C to 25°C</span>
+                            </div>
+                            <div class="detail-item">
+                                <span class="detail-label">Daily Walking</span>
+                                <span class="detail-value">5-6 hours</span>
+                            </div>
+                        </div>
+                        
+                        <div class="best-time">
+                            <i class="fas fa-calendar-alt"></i>
+                            <span>Best Time: May-October</span>
+                        </div>
+                    </div>
+                    
+                    <div class="destination-footer">
+                        <a href="#contact" class="btn">Inquire Now</a>
+                        <div class="price-container">
+                            <div class="price-from">Starting from</div>
+                            <div class="price-amount">$1,650</div>
+                            <div class="price-note">per person</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Pokhara Tour -->
+                <div class="destination-card fade-in" data-category="tour">
+                    <div class="destination-header">
+                        <h3><i class="fas fa-lake"></i> Pokhara City Tour</h3>
+                        <span class="destination-type city-tour">City Tour</span>
+                        <div class="difficulty easy">Easy</div>
+                    </div>
+                    
+                    <div class="destination-content">
+                        <p class="destination-description">Discover Nepal's adventure capital with its serene Phewa Lake, stunning mountain views, paragliding, boating, and vibrant nightlife. Perfect for relaxation and adventure.</p>
+                        
+                        <div class="destination-details">
+                            <div class="detail-item">
+                                <span class="detail-label">Duration</span>
+                                <span class="detail-value">3 Days</span>
+                            </div>
+                            <div class="detail-item">
+                                <span class="detail-label">Activities</span>
+                                <span class="detail-value">Sightseeing</span>
+                            </div>
+                            <div class="detail-item">
+                                <span class="detail-label">Temperature</span>
+                                <span class="detail-value">15°C to 30°C</span>
+                            </div>
+                            <div class="detail-item">
+                                <span class="detail-label">Accommodation</span>
+                                <span class="detail-value">3-4 Star Hotel</span>
+                            </div>
+                        </div>
+                        
+                        <div class="best-time">
+                            <i class="fas fa-calendar-alt"></i>
+                            <span>Best Time: Year Round</span>
+                        </div>
+                    </div>
+                    
+                    <div class="destination-footer">
+                        <a href="#contact" class="btn">Inquire Now</a>
+                        <div class="price-container">
+                            <div class="price-from">Starting from</div>
+                            <div class="price-amount">$250</div>
+                            <div class="price-note">per person</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Kathmandu Tour -->
+                <div class="destination-card fade-in" data-category="tour">
+                    <div class="destination-header">
+                        <h3><i class="fas fa-torii-gate"></i> Kathmandu Valley Tour</h3>
+                        <span class="destination-type city-tour">Cultural Tour</span>
+                        <div class="difficulty easy">Easy</div>
+                    </div>
+                    
+                    <div class="destination-content">
+                        <p class="destination-description">Immerse yourself in the cultural heart of Nepal with visits to ancient temples, palaces, and bustling markets. Includes UNESCO World Heritage Sites and traditional Nepali cuisine.</p>
+                        
+                        <div class="destination-details">
+                            <div class="detail-item">
+                                <span class="detail-label">Duration</span>
+                                <span class="detail-value">4 Days</span>
+                            </div>
+                            <div class="detail-item">
+                                <span class="detail-label">Sites</span>
+                                <span class="detail-value">7 UNESCO Sites</span>
+                            </div>
+                            <div class="detail-item">
+                                <span class="detail-label">Temperature</span>
+                                <span class="detail-value">10°C to 28°C</span>
+                            </div>
+                            <div class="detail-item">
+                                <span class="detail-label">Transport</span>
+                                <span class="detail-value">Private Vehicle</span>
+                            </div>
+                        </div>
+                        
+                        <div class="best-time">
+                            <i class="fas fa-calendar-alt"></i>
+                            <span>Best Time: Oct-April</span>
+                        </div>
+                    </div>
+                    
+                    <div class="destination-footer">
+                        <a href="#contact" class="btn">Inquire Now</a>
+                        <div class="price-container">
+                            <div class="price-from">Starting from</div>
+                            <div class="price-amount">$350</div>
+                            <div class="price-note">per person</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Chitwan Safari -->
+                <div class="destination-card fade-in" data-category="tour">
+                    <div class="destination-header">
+                        <h3><i class="fas fa-paw"></i> Chitwan Safari Tour</h3>
+                        <span class="destination-type city-tour">Wildlife Safari</span>
+                        <div class="difficulty easy">Easy</div>
+                    </div>
+                    
+                    <div class="destination-content">
+                        <p class="destination-description">Experience jungle safaris in Chitwan National Park, home to one-horned rhinos, Bengal tigers, elephants, crocodiles, and diverse birdlife. Includes jungle walks, canoe rides, and cultural shows.</p>
+                        
+                        <div class="destination-details">
+                            <div class="detail-item">
+                                <span class="detail-label">Duration</span>
+                                <span class="detail-value">3 Days</span>
+                            </div>
+                            <div class="detail-item">
+                                <span class="detail-label">Activities</span>
+                                <span class="detail-value">Safari, Canoe</span>
+                            </div>
+                            <div class="detail-item">
+                                <span class="detail-label">Temperature</span>
+                                <span class="detail-value">20°C to 35°C</span>
+                            </div>
+                            <div class="detail-item">
+                                <span class="detail-label">Accommodation</span>
+                                <span class="detail-value">Jungle Resort</span>
+                            </div>
+                        </div>
+                        
+                        <div class="best-time">
+                            <i class="fas fa-calendar-alt"></i>
+                            <span>Best Time: Oct-March</span>
+                        </div>
+                    </div>
+                    
+                    <div class="destination-footer">
+                        <a href="#contact" class="btn">Inquire Now</a>
+                        <div class="price-container">
+                            <div class="price-from">Starting from</div>
+                            <div class="price-amount">$300</div>
+                            <div class="price-note">per person</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Lumbini Pilgrimage -->
+                <div class="destination-card fade-in" data-category="tour">
+                    <div class="destination-header">
+                        <h3><i class="fas fa-peace"></i> Lumbini Pilgrimage Tour</h3>
+                        <span class="destination-type city-tour">Pilgrimage</span>
+                        <div class="difficulty easy">Easy</div>
+                    </div>
+                    
+                    <div class="destination-content">
+                        <p class="destination-description">Visit the birthplace of Lord Buddha and explore monasteries from different Buddhist traditions around the world. Spiritual journey through ancient ruins and meditation centers.</p>
+                        
+                        <div class="destination-details">
+                            <div class="detail-item">
+                                <span class="detail-label">Duration</span>
+                                <span class="detail-value">2 Days</span>
+                            </div>
+                            <div class="detail-item">
+                                <span class="detail-label">Monasteries</span>
+                                <span class="detail-value">20+ Countries</span>
+                            </div>
+                            <div class="detail-item">
+                                <span class="detail-label">Temperature</span>
+                                <span class="detail-value">15°C to 32°C</span>
+                            </div>
+                            <div class="detail-item">
+                                <span class="detail-label">Focus</span>
+                                <span class="detail-value">Spiritual</span>
+                            </div>
+                        </div>
+                        
+                        <div class="best-time">
+                            <i class="fas fa-calendar-alt"></i>
+                            <span>Best Time: Oct-April</span>
+                        </div>
+                    </div>
+                    
+                    <div class="destination-footer">
+                        <a href="#contact" class="btn">Inquire Now</a>
+                        <div class="price-container">
+                            <div class="price-from">Starting from</div>
+                            <div class="price-amount">$200</div>
+                            <div class="price-note">per person</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Island Peak -->
+                <div class="destination-card fade-in" data-category="peak">
+                    <div class="destination-header">
+                        <h3><i class="fas fa-mountain"></i> Island Peak Climbing</h3>
+                        <span class="destination-type trekking">Peak Climbing</span>
+                        <div class="difficulty difficult">Difficult</div>
+                    </div>
+                    
+                    <div class="destination-content">
+                        <p class="destination-description">Popular trekking peak (6,189m) in the Everest region. Requires basic mountaineering skills. Combines Everest Base Camp trek with a summit attempt. Includes climbing training.</p>
+                        
+                        <div class="destination-details">
+                            <div class="detail-item">
+                                <span class="detail-label">Duration</span>
+                                <span class="detail-value">18 Days</span>
+                            </div>
+                            <div class="detail-item">
+                                <span class="detail-label">Max Altitude</span>
+                                <span class="detail-value">6,189m</span>
+                            </div>
+                            <div class="detail-item">
+                                <span class="detail-label">Temperature</span>
+                                <span class="detail-value">-15°C to 10°C</span>
+                            </div>
+                            <div class="detail-item">
+                                <span class="detail-label">Climbing Gear</span>
+                                <span class="detail-value">Included</span>
+                            </div>
+                        </div>
+                        
+                        <div class="best-time">
+                            <i class="fas fa-calendar-alt"></i>
+                            <span>Best Time: April-May & Oct-Nov</span>
+                        </div>
+                    </div>
+                    
+                    <div class="destination-footer">
+                        <a href="#contact" class="btn">Inquire Now</a>
+                        <div class="price-container">
+                            <div class="price-from">Starting from</div>
+                            <div class="price-amount">$2,450</div>
+                            <div class="price-note">per person</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Mardi Himal -->
+                <div class="destination-card fade-in" data-category="trekking">
+                    <div class="destination-header">
+                        <h3><i class="fas fa-eye"></i> Mardi Himal Trek</h3>
+                        <span class="destination-type trekking">Trekking</span>
+                        <div class="difficulty moderate">Moderate</div>
+                    </div>
+                    
+                    <div class="destination-content">
+                        <p class="destination-description">Newer trekking route with spectacular views of Mardi Himal, Machhapuchhre, and Annapurna range. Less crowded, through beautiful rhododendron forests and traditional villages.</p>
+                        
+                        <div class="destination-details">
+                            <div class="detail-item">
+                                <span class="detail-label">Duration</span>
+                                <span class="detail-value">7 Days</span>
+                            </div>
+                            <div class="detail-item">
+                                <span class="detail-label">Max Altitude</span>
+                                <span class="detail-value">4,500m</span>
+                            </div>
+                            <div class="detail-item">
+                                <span class="detail-label">Temperature</span>
+                                <span class="detail-value">0°C to 20°C</span>
+                            </div>
+                            <div class="detail-item">
+                                <span class="detail-label">Daily Walking</span>
+                                <span class="detail-value">4-6 hours</span>
+                            </div>
+                        </div>
+                        
+                        <div class="best-time">
+                            <i class="fas fa-calendar-alt"></i>
+                            <span>Best Time: March-May & Sept-Nov</span>
+                        </div>
+                    </div>
+                    
+                    <div class="destination-footer">
+                        <a href="#contact" class="btn">Inquire Now</a>
+                        <div class="price-container">
+                            <div class="price-from">Starting from</div>
+                            <div class="price-amount">$650</div>
+                            <div class="price-note">per person</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="price-note" style="text-align: center; margin-top: 40px; color: var(--text-light); font-style: italic;">
+                <p><strong>Note:</strong> All prices are for groups of 2+ people. Solo travelers and private group rates available. Prices include all permits, accommodation, meals during trekking, guide, porter, and transportation. International flights and travel insurance not included.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <div class="section-title fade-in">
+                <h2>Client Testimonials</h2>
+                <p>See what travelers say about their experiences exploring Nepal with me</p>
+            </div>
+            <div class="testimonial-container">
+                <div class="testimonial-card fade-in">
+                    <p class="testimonial-text">"Gaurab made our Everest Base Camp trek an unforgettable experience. His knowledge of the trails, Sherpa culture, and attention to safety was exceptional. The all-inclusive package meant no surprises - everything was taken care of!"</p>
+                    <div class="testimonial-author">
+                        <div class="author-info">
+                            <h4>Michael Johnson</h4>
+                            <p>USA | Everest Base Camp Trek | April 2023</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card fade-in">
+                    <p class="testimonial-text">"As a solo female traveler, I felt completely safe with Gaurab. He tailored the Annapurna Circuit to my pace and was incredibly knowledgeable. The price was very reasonable for everything included. Highly recommended!"</p>
+                    <div class="testimonial-author">
+                        <div class="author-info">
+                            <h4>Sarah Williams</h4>
+                            <p>Australia | Annapurna Circuit | October 2023</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card fade-in">
+                    <p class="testimonial-text">"Our family trip to Nepal was perfect thanks to Gaurab. He created a balanced itinerary with trekking, cultural experiences, and wildlife safari. His connections with local communities gave us authentic experiences we'll cherish forever."</p>
+                    <div class="testimonial-author">
+                        <div class="author-info">
+                            <h4>Robert Chen</h4>
+                            <p>Singapore | Family Tour | December 2023</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-title fade-in">
+                <h2>Contact Me</h2>
+                <p>Ready for your Nepal adventure? Get in touch to plan your customized itinerary</p>
+            </div>
+            <div class="contact-container">
+                <div class="contact-info fade-in">
+                    <h3>Let's Plan Your Journey</h3>
+                    <p>I'll help you create a personalized itinerary based on your interests, fitness level, and budget. Contact me for a free consultation and detailed quotation.</p>
+                    
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h4>Email</h4>
+                                <a href="mailto:gaurabpromo@gmail.com">gaurabpromo@gmail.com</a>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fab fa-whatsapp"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h4>WhatsApp</h4>
+                                <a href="https://wa.me/9779766481043" target="_blank">+977 9766481043</a>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fab fa-instagram"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h4>Instagram</h4>
+                                <a href="https://www.instagram.com/nepalhimalayanjourneys/" target="_blank">@nepalhimalayanjourneys</a>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fab fa-facebook"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h4>Facebook</h4>
+                                <a href="https://www.facebook.com/gaurab.sapkota.142" target="_blank">Gaurab Sapkota</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <h3 style="margin-top: 40px;">Follow My Adventures</h3>
+                    <div class="social-links">
+                        <a href="https://www.instagram.com/nepalhimalayanjourneys/" target="_blank" title="Instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="https://www.facebook.com/gaurab.sapkota.142" target="_blank" title="Facebook">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="https://wa.me/9779766481043" target="_blank" title="WhatsApp">
+                            <i class="fab fa-whatsapp"></i>
+                        </a>
+                        <a href="mailto:gaurabpromo@gmail.com" title="Email">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="contact-form fade-in">
+                    <form id="contactForm">
+                        <div id="formStatus" class="form-status"></div>
+                        
+                        <div class="form-group">
+                            <label for="name">Full Name *</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">Email Address *</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" id="phone" name="phone">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="destination">Destination Interest</label>
+                            <select id="destination" name="destination">
+                                <option value="">Select a destination</option>
+                                <option value="Everest Base Camp">Everest Base Camp ($1,350)</option>
+                                <option value="Annapurna Circuit">Annapurna Circuit ($1,250)</option>
+                                <option value="Annapurna Base Camp">Annapurna Base Camp ($850)</option>
+                                <option value="Langtang Valley">Langtang Valley ($750)</option>
+                                <option value="Manaslu Circuit">Manaslu Circuit ($1,450)</option>
+                                <option value="Upper Mustang">Upper Mustang ($1,650)</option>
+                                <option value="Pokhara Tour">Pokhara Tour ($250)</option>
+                                <option value="Kathmandu Tour">Kathmandu Tour ($350)</option>
+                                <option value="Chitwan Safari">Chitwan Safari ($300)</option>
+                                <option value="Island Peak">Island Peak Climbing ($2,450)</option>
+                                <option value="Custom Itinerary">Custom Itinerary</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="travelers">Number of Travelers</label>
+                            <select id="travelers" name="travelers">
+                                <option value="1">1 Person</option>
+                                <option value="2" selected>2 People</option>
+                                <option value="3-4">3-4 People</option>
+                                <option value="5-6">5-6 People</option>
+                                <option value="7+">7+ People</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Your Message *</label>
+                            <textarea id="message" name="message" placeholder="Tell me about your travel plans, preferred dates, fitness level, and any special requirements..." required></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn">Get Detailed Quotation</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-col">
+                    <h3>Nepal Himalayan Journeys</h3>
+                    <p>Professional guided treks and cultural tours in Nepal. Experience the Himalayas with an expert local guide. All-inclusive packages with transparent pricing.</p>
+                    <div class="footer-social">
+                        <a href="https://www.instagram.com/nepalhimalayanjourneys/" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.facebook.com/gaurab.sapkota.142" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://wa.me/9779766481043" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                        <a href="mailto:gaurabpromo@gmail.com"><i class="fas fa-envelope"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-col">
+                    <h3>Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About Me</a></li>
+                        <li><a href="#destinations">Destinations & Rates</a></li>
+                        <li><a href="#testimonials">Testimonials</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h3>Popular Treks</h3>
+                    <ul class="footer-links">
+                        <li><a href="#destinations">Everest Base Camp - $1,350</a></li>
+                        <li><a href="#destinations">Annapurna Circuit - $1,250</a></li>
+                        <li><a href="#destinations">Langtang Valley - $750</a></li>
+                        <li><a href="#destinations">Manaslu Circuit - $1,450</a></li>
+                        <li><a href="#destinations">Annapurna Base Camp - $850</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h3>Contact Info</h3>
+                    <ul class="footer-links">
+                        <li><a href="mailto:gaurabpromo@gmail.com"><i class="fas fa-envelope"></i> gaurabpromo@gmail.com</a></li>
+                        <li><a href="https://wa.me/9779766481043" target="_blank"><i class="fab fa-whatsapp"></i> +977 9766481043</a></li>
+                        <li><a href="https://www.instagram.com/nepalhimalayanjourneys/" target="_blank"><i class="fab fa-instagram"></i> @nepalhimalayanjourneys</a></li>
+                        <li><a href="https://www.facebook.com/gaurab.sapkota.142" target="_blank"><i class="fab fa-facebook"></i> Gaurab Sapkota</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="copyright">
+                <p>&copy; 2023 Nepal Himalayan Journeys by Gaurab Sapkota. All rights reserved.</p>
+                <p>Professional Travel Guide | Nepal Tourism License: ##### | All prices in USD</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Float Button -->
+    <a href="https://wa.me/9779766481043?text=Hello%20Gaurab!%20I%20saw%20your%20portfolio%20and%20am%20interested%20in%20planning%20a%20trip%20to%20Nepal.%20Can%20you%20send%20me%20more%20details%20about%20your%20packages?" target="_blank" class="whatsapp-float">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <script>
+        // Mobile menu toggle
+        const mobileMenuBtn = document.getElementById('mobileMenuBtn');
+        const navLinks = document.getElementById('navLinks');
+        
+        mobileMenuBtn.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+            mobileMenuBtn.innerHTML = navLinks.classList.contains('active') 
+                ? '<i class="fas fa-times"></i>' 
+                : '<i class="fas fa-bars"></i>';
+        });
+        
+        // Close mobile menu when clicking a link
+        document.querySelectorAll('.nav-links a, .footer-links a').forEach(link => {
+            link.addEventListener('click', () => {
+                if (navLinks.classList.contains('active')) {
+                    navLinks.classList.remove('active');
+                    mobileMenuBtn.innerHTML = '<i class="fas fa-bars"></i>';
+                }
+            });
+        });
+        
+        // Active nav link on scroll
+        const sections = document.querySelectorAll('section');
+        const navItems = document.querySelectorAll('.nav-links a');
+        
+        window.addEventListener('scroll', () => {
+            let current = '';
+            sections.forEach(section => {
+                const sectionTop = section.offsetTop;
+                const sectionHeight = section.clientHeight;
+                if (scrollY >= (sectionTop - 300)) {
+                    current = section.getAttribute('id');
+                }
+            });
+            
+            navItems.forEach(item => {
+                item.classList.remove('active');
+                if (item.getAttribute('href').substring(1) === current) {
+                    item.classList.add('active');
+                }
+            });
+        });
+        
+        // Filter destinations
+        const filterButtons = document.querySelectorAll('.filter-btn');
+        const destinationCards = document.querySelectorAll('.destination-card');
+        
+        filterButtons.forEach(button => {
+            button.addEventListener('click', () => {
+                // Remove active class from all buttons
+                filterButtons.forEach(btn => btn.classList.remove('active'));
+                // Add active class to clicked button
+                button.classList.add('active');
+                
+                const filterValue = button.getAttribute('data-filter');
+                
+                destinationCards.forEach(card => {
+                    if (filterValue === 'all' || card.getAttribute('data-category') === filterValue) {
+                        card.style.display = 'block';
+                        setTimeout(() => {
+                            card.style.opacity = '1';
+                            card.style.transform = 'translateY(0)';
+                        }, 100);
+                    } else {
+                        card.style.opacity = '0';
+                        card.style.transform = 'translateY(20px)';
+                        setTimeout(() => {
+                            card.style.display = 'none';
+                        }, 300);
+                    }
+                });
+            });
+        });
+        
+        // Contact form submission with validation
+        const contactForm = document.getElementById('contactForm');
+        const formStatus = document.getElementById('formStatus');
+        
+        contactForm.addEventListener('submit', (e) => {
+            e.preventDefault();
+            
+            // Get form data
+            const name = document.getElementById('name').value;
+            const email = document.getElementById('email').value;
+            const phone = document.getElementById('phone').value;
+            const destination = document.getElementById('destination').value;
+            const travelers = document.getElementById('travelers').value;
+            const message = document.getElementById('message').value;
+            
+            // Simple validation
+            if (!name || !email || !message) {
+                formStatus.textContent = 'Please fill in all required fields.';
+                formStatus.className = 'form-status error';
+                return;
+            }
+            
+            // Email validation
+            const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+            if (!emailRegex.test(email)) {
+                formStatus.textContent = 'Please enter a valid email address.';
+                formStatus.className = 'form-status error';
+                return;
+            }
+            
+            // Success message
+            const destinationText = destination ? ` for ${destination}` : '';
+            const travelersText = travelers ? ` (${travelers} traveler${travelers > 1 ? 's' : ''})` : '';
+            
+            formStatus.textContent = `Thank you, ${name}! Your inquiry has been sent successfully. I will contact you within 24 hours at ${email} with a detailed quotation${destinationText}${travelersText}.`;
+            formStatus.className = 'form-status success';
+            
+            // In a real implementation, you would send data to a server here
+            console.log('Form submitted:', { name, email, phone, destination, travelers, message });
+            
+            // Reset form after 8 seconds
+            setTimeout(() => {
+                contactForm.reset();
+                formStatus.textContent = '';
+                formStatus.className = 'form-status';
+            }, 8000);
+        });
+        
+        // Scroll animations
+        const fadeElements = document.querySelectorAll('.fade-in');
+        
+        const fadeInOnScroll = () => {
+            fadeElements.forEach(element => {
+                const elementTop = element.getBoundingClientRect().top;
+                const elementVisible = 150;
+                
+                if (elementTop < window.innerHeight - elementVisible) {
+                    element.classList.add('visible');
+                }
+            });
+        };
+        
+        // Check on load and scroll
+        window.addEventListener('load', fadeInOnScroll);
+        window.addEventListener('scroll', fadeInOnScroll);
+        
+        // Navbar background change on scroll
+        window.addEventListener('scroll', () => {
+            const nav = document.querySelector('nav');
+            if (window.scrollY > 100) {
+                nav.style.backgroundColor = 'rgba(255, 255, 255, 0.98)';
+                nav.style.padding = '15px 0';
+            } else {
+                nav.style.backgroundColor = 'rgba(255, 255, 255, 0.98)';
+                nav.style.padding = '20px 0';
+            }
+        });
+    </script>
+</body>
+</html>
+
+
+
+
